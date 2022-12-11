@@ -40,10 +40,7 @@ bool CheckGrid(int currentTree, IEnumerable<int> row, int index)
 {
     var (left, right) = SplitRow(row, index);
 
-    var bool1 = !left.Any(x => x >= currentTree);
-    var bool2 = !right.Any(x => x >= currentTree);
-
-    return bool1 || bool2;
+    return !left.Any(x => x >= currentTree) || !right.Any(x => x >= currentTree);
 }
 
 IEnumerable<int> GetColumn(int index, IEnumerable<int[]> grid)

@@ -419,7 +419,6 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
-AdventOfCode2022/.idea/.idea.AdventOfCode2022/.idea/aws.xml
-AdventOfCode2022/.idea/.idea.AdventOfCode2022/.idea/indexLayout.xml
-AdventOfCode2022/.idea/.idea.AdventOfCode2022/.idea/vcs.xml
-AdventOfCode2022/.idea/.idea.AdventOfCode2022/.idea/sonarlint/issuestore/index.pb
+
+
+AdventOfCode2022/.idea
